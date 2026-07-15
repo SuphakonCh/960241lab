@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+</head>
+<body>
+    <header>
+        <img src="https://www.cmu.ac.th/content/Article/2023/7e6d8808-54b5-419d-b3da-99de6cce26f4/047c25cb-dee0-494e-b462-4f28f9e51ffd.jpg" alt="CAMT Logo" width="200">
+    </header>
+    <hr>
+    
+    <main>
+        <h2>หน้า Sign In</h2>
+        <form action="/sendLogin" method="POST">
+            <label for="username">username</label>
+            <input type="email" id="username" name="username" placeholder="Email" required>
+            
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            
+            <label for="firstname">ชื่อ</label>
+            <input type="text" id="firstname" name="firstname" required>
+            
+            <label for="lastname">สกุล</label>
+            <input type="text" id="lastname" name="lastname" required>
+            
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <a href="login.html">กลับไปหน้า login</a>
+        </form>
+    </main>
+    <hr>
+
+    <footer>
+        <i>ที่อยู่ camt มช</i><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.106512803875!2d98.95152501538356!3d18.796338387249053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3a69a41df3c1%3A0xe54d852a4208a0d9!2sCollege%20of%20Arts%2C%20Media%20and%20Technology!5e0!3m2!1sen!2sth!4v1628150000000!5m2!1sen!2sth" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </footer>
+</body>
+</html>
